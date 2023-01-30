@@ -3,14 +3,14 @@
 
 <head>
     <!-- <link rel="stylesheet" href="index.css"> -->
-    <link rel="stylesheet" href="font.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="title.css">
-    <link rel="stylesheet" href="profile_img.css">
-    <link rel="stylesheet" href="profile.css">
-    <link rel="stylesheet" href="review_box.css">
-    <link rel="stylesheet" href="write_button.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/title.css">
+    <link rel="stylesheet" href="./css/profile_img.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/review_box.css">
+    <link rel="stylesheet" href="./css/write_button.css">
     <!-- <link rel="stylesheet" href=".css"> -->
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -41,13 +41,14 @@
             <span id="join_date" class="font_size_14 font_color_grey font_weight_regular">
                 가입일 2023. 01. 24
             </span>
-        </span> 
+        </span>
     </div>
 
 
     <div>
         <div id="text_input_box">
-            <textarea id="review_textarea" type="text" name="review" maxlength="200" onkeydown="count_textarea_size(this)" onkeyup="count_textarea_size(this)"
+            <textarea id="review_textarea" type="text" name="review" maxlength="200"
+                onkeydown="count_textarea_size(this)" onkeyup="count_textarea_size(this)"
                 placeholder="좋았던 점, 아이디어의 장단점, 보완점 등을 솔직하게 작성해 주세요. (최대 200자)"></textarea>
         </div>
         <div id="text_size_wrapper">
@@ -68,5 +69,6 @@
         </div>
     </div>
 </body>
-<script src="count_textarea_size.js"></script>
+<script src="./js/count_textarea_size.js"></script>
+
 </html>

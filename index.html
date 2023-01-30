@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="title.css">
+    <link rel="stylesheet" href="profile_img.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="review_box.css">
+    <link rel="stylesheet" href="write_button.css">
+    <!-- <link rel="stylesheet" href=".css"> -->
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <div id="title" class="font_size_24 font_default_set font_weight_bold">
+        쪽지 보내기
+    </div>
+
+    <div id="profile">
+        <span id="profile_img_wrapper">
+            <span class="profile_img">
+                <div class="profile_img_border">
+                    <img class="profile_original_img" src="./img/test_profile.png">
+                </div>
+            </span>
+        </span>
+        <span id="profile_info" class="font_default_set">
+            <span id="profile_info_up_side" class="font_size_20 font_weight_bold">
+                <span id="nickname">
+                    침착한 비버
+                </span>
+                <span id="right_arrow_icon">
+                    <img src="img/icon_arrow_right.svg">
+                </span>
+            </span>
+            <span id="join_date" class="font_size_14 font_color_grey font_weight_regular">
+                가입일 2023. 01. 24
+            </span>
+        </span> 
+    </div>
+
+
+    <div>
+        <div id="text_input_box">
+            <textarea id="review_textarea" type="text" name="review" maxlength="200" onkeydown="count_textarea_size(this)" onkeyup="count_textarea_size(this)"
+                placeholder="좋았던 점, 아이디어의 장단점, 보완점 등을 솔직하게 작성해 주세요. (최대 200자)"></textarea>
+        </div>
+        <div id="text_size_wrapper">
+            <div id="text_size">
+                0/200
+            </div>
+        </div>
+    </div>
+
+
+    <div id="write_button_position">
+        <div id="write_button_wrapper">
+            <div id="write_button">
+                <div id="button_text">
+                    리뷰 작성
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="count_textarea_size.js"></script>
+</html>

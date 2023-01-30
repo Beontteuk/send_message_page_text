@@ -1,0 +1,40 @@
+#write_button_position {
+    width: 100%;
+    margin-top: 50%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    display: flex;
+}
+
+ #write_button_wrapper {
+    height: 49px;
+    bottom: 0;
+    left:0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 34px;
+    flex: 1;
+}
+
+#write_button {
+    background-color: #5835E2;
+    border-radius: 4px;
+    height: 49px;
+    bottom: 0;
+    left:0;  
+    display: flex;
+}
+
+#button_text {
+    margin-top: 11px;
+    margin-bottom: 12.39px;
+    margin-left: 53.5px;
+    margin-right: 50.34px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    font-size: 18px;
+    flex:1;
+}

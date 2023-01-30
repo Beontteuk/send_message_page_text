@@ -1,0 +1,45 @@
+.font_default_set {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -0.02em;
+    line-height: 134%;
+}
+
+.font_weight_bold {
+    font-weight: bold;
+}
+
+.font_weight_regular {
+    font-weight: 400;
+}
+
+.font_color_black {
+    color: #262626;
+}
+
+.font_color_grey {
+    color: #838383;
+}
+
+.font_size_14 {
+    font-size: 14px;
+}
+
+.font_size_16 {
+    font-size: 16px;
+}
+
+.font_size_18 {
+    font-size: 18px;
+}
+
+.font_size_20 {
+    font-size: 20px;
+}
+
+.font_size_24 {
+    font-size: 24px;
+}
+
+.font_color_white {
+    color: #FFFFFF;
+}

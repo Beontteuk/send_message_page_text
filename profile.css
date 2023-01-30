@@ -1,0 +1,37 @@
+#profile {
+    margin-top: 16px;
+    margin-left: 16px;
+    position: relative;
+}
+
+#nickname {
+    width: auto;
+    line-height: 28.96px;
+}
+
+#join_date {
+    width: auto;
+    line-height: 20.27px;
+}
+
+#profile_info {
+    width: auto;
+}
+
+#profile_info_up_side {
+    position: absolute;
+    left: 61px;
+    top: -2px;
+}
+
+#join_date {
+    position: absolute;
+    left: 61px;
+    top: 27px;
+}
+
+#right_arrow_icon {
+    position: absolute;
+    left: 105px;
+    top: 2.5px;
+}

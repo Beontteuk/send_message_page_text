@@ -1,0 +1,43 @@
+#text_input_box {
+    margin-top: 22.49px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 3px;
+    display: flex;
+}
+
+#text_size_wrapper {
+    float: right;
+    margin-right: 16px;
+    margin-top: 7px;
+}
+
+#text_size {
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    font-size: 14px;
+    color: #262626;
+    letter-spacing: -0.02em;
+    line-height: 134%;
+}
+
+textarea {
+    height: 196px;
+    width: auto;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    resize: none;
+    padding-top: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    flex: 1;
+    color:#262626;
+}
+
+textarea::placeholder {
+    color: #838383;
+}
